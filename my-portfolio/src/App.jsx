@@ -1,8 +1,9 @@
 import Aos from 'aos';
-import { useEffect } from 'react'
+import { useEffect } from 'react';
 import './App.css'
 // import Footer from './assets/Components/Footer/Footer'
 import Header from './assets/Components/Header/Header'
+import Hero from './assets/Components/UI/Hero';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
   return (
     <>
       <Header/>
+      <Hero/>
       {/* <Footer/> */}
     </>
   )

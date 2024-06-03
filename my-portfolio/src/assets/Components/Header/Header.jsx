@@ -21,11 +21,21 @@ const Header = () => {
             {/* starting nav items */}
             <div className="menu">
               <ul className="flex items-center gap-10">
-                <li className="text-smallTextColor font-[600]"><a href="#about">About</a></li>
-                <li className="text-smallTextColor font-[600]"><a href="#services">Services</a></li>
-                <li className="text-smallTextColor font-[600]"><a href="#portfolio">Portfolio</a></li>
-                <li className="text-smallTextColor font-[600]"><a href="#contact">Contact</a></li>
+                <li className="text-smallTextColor font-[600] hover:scale-[1.1]"><a href="#about">About</a></li>
+                <li className="text-smallTextColor font-[600] hover:scale-[1.1]"><a href="#services">Services</a></li>
+                <li className="text-smallTextColor font-[600] hover:scale-[1.1]"><a href="#portfolio">Portfolio</a></li>
+                <li className="text-smallTextColor font-[600] hover:scale-[1.1]"><a href="#contact">Contact</a></li>
               </ul>
+            </div>
+
+            <div className="flex items-center gap-4">
+              <button className="flex items-center gap-2 text-smallTextColor font-[600] border border-solid border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor hover:text-white hover:font-[700] ease-in duration-300 ">
+              <i class="ri-send-plane-line"> Support Me!</i>
+              </button>
+
+              <span className="text-2xl text-smallTextColor cursor-pointer md:hidden">
+                <i class="ri-menu-line"></i>
+              </span>
             </div>
 
 
