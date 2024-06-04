@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="md:flex md:flex-row sm:flex-col items-center justify-between">
             {/* left side content of the section */}
 
-            <div className="w-full md:basis-1/2 order-2 md:order-1">
+            <div className="w-full md:basis-1/2 ">
                 <h5
                 data-aos="fade-right"
                 data-aos-duration ="1500"
@@ -42,7 +42,7 @@ const Hero = () => {
                 <p
                 data-aos="fade-left"
                 data-aos-duration="1500"
-                className="flex text-headingColor gap-3 mt-12 text-[15px] font-[500] leading-7 sm:pl-14 sm:pr-10 text-justify"
+                className="flex text-headingColor gap-3 mt-12 text-[16px] font-[500] leading-7 sm:pl-14 sm:pr-10 text-justify"
                 >
 
                 <span>
@@ -91,15 +91,15 @@ const Hero = () => {
 
             {/* hero image */}
 
-            <div className="basis-1/3 sm:mt-0 mt-10 order-1">
+            <div className="basis-1/3 sm:mt-0 mt-10 ">
                 <figure className="items-center justify-center flex">
                     <img src={hero} 
                     data-aos="fade-left"
-                    data-aos-duration="2000"
+                    data-aos-duration="1800"
                     data-aos-delay="300"
                     
                     alt="hero image" 
-                    className="rounded-full md:w-[500px] md:h-[370px] md:-ml-[100px] w-[350px] h-[350px]  "/>
+                    className="rounded-full md:w-[500px] justify-center md:h-[370px] w-[400px] h-[400px]  "/>
                 </figure>
             </div>
 
@@ -110,7 +110,34 @@ const Hero = () => {
                         <CountUp start={0} end={3} duration={2} suffix="rd"/>
                     </h2>
                     <h4>
-                        Year Undergarduate
+                        Year Undergarduate 
+                    </h4>
+                </div>
+
+                <div className="mb-10">
+                    <h2 className="text-headingColor font-[700] text-[32px]">
+                        <CountUp start={0} end={100} duration={2} suffix="%"/>
+                    </h2>
+                    <h4>
+                        Motivated And Learning
+                    </h4>
+                </div>
+
+                <div className="mb-10">
+                    <h2 className="text-headingColor font-[700] text-[32px]">
+                        <CountUp start={0} end={100} duration={2} suffix="%"/>
+                    </h2>
+                    <h4>
+                        Team Collaboration
+                    </h4>
+                </div>
+
+                <div className="mb-10">
+                    <h2 className="text-headingColor font-[700] text-[32px]">
+                        <CountUp start={0} end={5} duration={2} suffix="+"/>
+                    </h2>
+                    <h4>
+                        Individual Projects
                     </h4>
                 </div>
             </div>
