@@ -52,7 +52,7 @@ const Hero = () => {
                 I am a motivated individual with a strong passion for continuous learning and growth. I possess good organizational and communication skills, understandable with thrive under pressure, and enjoy taking an leadership roles. My enthusiasm and ability to work independent make me a valuable team member. I am dedicated to pursuing opportunities in the IT industry to further develop my skills and knowledge as improve my carrier path also. I always ready to find and move with new trends.
                 </p>
 
-                <div className="flex items-center gap-9 mt-14">
+                <div className="flex items-center gap-9 mt-8 mb-5 md:mt-10">
                     <span className='text-smallTextColor font-[600] text-[15px]'>
                         Follow Me:
                     </span>
@@ -99,7 +99,7 @@ const Hero = () => {
                     data-aos-delay="300"
                     
                     alt="hero image" 
-                    className="rounded-full md:w-[500px] justify-center md:h-[370px] w-[400px] h-[400px]  "/>
+                    className="rounded-full justify-between w-[400px] h-[400px]  "/>
                 </figure>
             </div>
 
