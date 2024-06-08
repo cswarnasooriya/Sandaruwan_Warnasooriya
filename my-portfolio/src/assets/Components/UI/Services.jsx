@@ -8,16 +8,24 @@ const Services = () => {
     <section id='services'>
     <div className="container lg:pt-5">
 
-        <div className="text-center">
+        <div 
+        data-aos="fade-down"
+        data-aos-duration ="1500"
+        data-aos-delay='300'
+        className="text-center">
             <h2 className="text-headingColor font-[600] text-[2.4rem] mb-5">
                 Who Am I...(´•‿•`)
             </h2>
 
-            <p className="lg:max-w-[980px] lg:mx-auto text-headingColor font-[500] text-[16px] leading-8 text-justify">
+            <p className="lg:max-w-full lg:mx-auto text-headingColor font-[400] text-[18px] leading-8 text-justify">
                 I am Undergraduate student of Sabaragamuwa University of Sri Lanka. Bsc(Hons) in Computing and Information Systems. In 2022 I graduated from IMBS Green Campus as the diplomer of Human Resourece Management (Dip. in HRM - 2022). So, Now I am begginer Full Stack Developer and currently I am following AI and Software Enginnering path as well with forwarding trends of IT sector. <br /><br />
                 I am Interested in learning new trend of technologies and cybersecurity as well. Currently I am following Backend Technologies like MongoDB and Node Js as well. Now I work with some individual and group project as  well as posible with good team working expereinces. I am Knowlege seeker of any related field of industry and social wise. I have good team work and time management qualities when used as the team. Still I am improvinf my skill level of Software Field and my Work experiences.
                 <br /><br />
+                <p
+                data-aos="fade-right"
+                data-aos-duration ="2200" >
                 Find me more over on <a href="https://www.linkedin.com/in/sandaruwan-warnasooriya-8b802621b/"><span className="text-[18px] font-semibold text-blue-800">LinkedIn</span></a>
+                </p>
 
             </p>
         </div>

@@ -23,7 +23,7 @@ const Header = () => {
               <ul className="flex items-center gap-10">
                 <li className="text-smallTextColor font-[600] hover:scale-[1.1]"><a href="#about">About</a></li>
                 <li className="text-smallTextColor font-[600] hover:scale-[1.1]"><a href="#services">Services</a></li>
-                <li className="text-smallTextColor font-[600] hover:scale-[1.1]"><a href="#portfolio">Portfolio</a></li>
+                <li className="text-smallTextColor font-[600] hover:scale-[1.1]"><a href="#projects">Projects</a></li>
                 <li className="text-smallTextColor font-[600] hover:scale-[1.1]"><a href="#contact">Contact</a></li>
               </ul>
             </div>

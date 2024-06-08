@@ -5,6 +5,7 @@ import './App.css'
 import Header from './assets/Components/Header/Header'
 import Hero from './assets/Components/UI/Hero';
 import Services from './assets/Components/UI/Services';
+import Projects from './assets/Components/UI/Projects';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Header/>
       <Hero/>
       <Services/>
+      <Projects/>
       {/* <Footer/> */}
     </>
   )

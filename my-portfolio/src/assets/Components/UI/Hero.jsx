@@ -20,7 +20,7 @@ const Hero = () => {
                 data-aos="fade-up"
                 data-aos-duration="1500"
                 className="text-headingColor font-[800] text-[1.8rem] sm:text-[40px] leading-[35px] sm:leading-[46px] mt-5"
-                >I'm Chanuka Sandaruwanヅ <br />Full Stack Developer
+                >I'm <span className="text-primarycolor text-[42px]">Chanuka Sandaruwan</span>ヅ <br />Full Stack Developer
                 </h1>
 
                 <div
@@ -35,7 +35,7 @@ const Hero = () => {
                         <i class="ri-mail-send-line"></i>Contact Me
                     </button></a>
 
-                    <a href="#portfolio" className="text-smallTextColor font-[600] text-[16px] border-b border-smallTextColor border-solid">See Portfolio</a>
+                    <a href="#portfolio" className="text-smallTextColor font-[700] text-[17px] border-b border-smallTextColor border-solid">Download CV</a>
                 
                 </div>
 
@@ -46,14 +46,17 @@ const Hero = () => {
                 >
 
                 <span>
-                    <i class="ri-message-3-line text-3xl"></i>
+                    <i class="ri-message-3-line text-[16px]"></i>
                 </span>
 
                 I am a motivated individual with a strong passion for continuous learning and growth. I possess good organizational and communication skills, understandable with thrive under pressure, and enjoy taking an leadership roles. My enthusiasm and ability to work independent make me a valuable team member. I am dedicated to pursuing opportunities in the IT industry to further develop my skills and knowledge as improve my carrier path also. I always ready to find and move with new trends.
                 </p>
 
-                <div className="flex items-center gap-9 mt-8 mb-5 md:mt-10">
-                    <span className='text-smallTextColor font-[600] text-[15px]'>
+                <div 
+                data-aos="fade-up"
+                data-aos-duration="1500"
+                className="flex items-center gap-9 mt-8 mb-5 md:mt-10">
+                    <span className='text-smallTextColor font-[600] text-[16px]'>
                         Follow Me:
                     </span>
 
@@ -107,37 +110,37 @@ const Hero = () => {
             <div className="md:basis-1/5 flex justify-between text-center mt-10 flex-wrap gap-3 md:mt-0 md:flex-col md:justify-end md:text-end">
                 <div className="mb-10">
                     <h2 className="text-headingColor font-[700] text-[32px]">
-                        <CountUp start={0} end={3} duration={2} suffix="rd"/>
+                        <CountUp start={0} end={3} duration={4} suffix="rd"/>
                     </h2>
-                    <h4>
+                    <h4 className="text-smallTextColor text-[18px]">
                         Year Undergarduate 
                     </h4>
                 </div>
 
                 <div className="mb-10">
                     <h2 className="text-headingColor font-[700] text-[32px]">
-                        <CountUp start={0} end={100} duration={2} suffix="%"/>
+                        <CountUp start={0} end={100} duration={4} suffix="%"/>
                     </h2>
-                    <h4>
-                        Motivated And Learning
+                    <h4 className="text-smallTextColor text-[18px]">
+                        Self Motivated And Learning
                     </h4>
                 </div>
 
                 <div className="mb-10">
                     <h2 className="text-headingColor font-[700] text-[32px]">
-                        <CountUp start={0} end={100} duration={2} suffix="%"/>
+                        <CountUp start={0} end={100} duration={4} suffix="%"/>
                     </h2>
-                    <h4>
-                        Team Collaboration
+                    <h4 className="text-smallTextColor text-[18px]">
+                        Good Team Collaboration
                     </h4>
                 </div>
 
                 <div className="mb-10">
                     <h2 className="text-headingColor font-[700] text-[32px]">
-                        <CountUp start={0} end={5} duration={2} suffix="+"/>
+                        <CountUp start={0} end={5} duration={4} suffix="+"/>
                     </h2>
-                    <h4>
-                        Individual Projects
+                    <h4 className="text-smallTextColor text-[18px]">
+                        Own Individual Projects
                     </h4>
                 </div>
             </div>
