@@ -6,7 +6,7 @@ const Model = ({activeId, setShowModel}) => {
 
   return (
     <div className="w-full h-full fixed top-0 left-0 z-10 bg-headingColor bg-opacity-40">
-        <div className="max-w-[600px] absolute top-1/2 left-1/2 z-20 bg-white rounded-[10px] transform -translate-x-1/2 -translate-y-1/2 p-5">
+        <div className="w-11/12 md:max-w-[600px] absolute md:w-full top-1/2 left-1/2 z-20 bg-white rounded-[10px] transform -translate-x-1/2 -translate-y-1/2 p-5">
             <div>
                 <figure>
                     <img className="rounded-[10px]" src={portfolio.imgUrl} alt="images according to selected id" />
