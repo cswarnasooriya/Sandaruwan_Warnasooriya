@@ -1,14 +1,45 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import data from '../../data/portfolioData';
-
+import Model from './Model';
 const Projects = () => {
 
     const [nextItems, setNextItems] = useState(6);
     const [portfolios, setPortfolios] = useState(data);
+    const [selectTab, setSelectTab] = useState('all'); //default value
+    const [showModel, setShowModel] = useState(false);
+    const [activeId, setActiveId] = useState(null);
+
+
+    const showModelHandler = id =>{
+        setShowModel(true)
+        setActiveId(id)
+    }
+
 
     const loadMoreHandler = () =>{
-        setNextItems(prev => prev + 3)
+        setNextItems(prev => prev + 3);
+    };
+
+   useEffect(() => {
+
+    if(selectTab === 'all'){
+        setPortfolios(data);
     }
+
+    if(selectTab === 'frontend'){
+        const filteredData = data.filter(item => item.category === 'Frontend');
+        setPortfolios(filteredData);
+
+    }
+
+    if(selectTab === 'backend'){
+        const filteredData = data.filter(item => item.category === 'Backend');
+        setPortfolios(filteredData);
+
+    }
+
+   }, [selectTab]);
+
 
   return (
     <section id='projects'>
@@ -22,15 +53,25 @@ const Projects = () => {
 
 
                 <div className="flex gap-3">
-                    <button className="text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px]">
+
+                    <button 
+                    onClick={()=> setSelectTab('all')} 
+                    className="text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[10px] font-semibold hover:bg-indigo-200">
                         All
                     </button>
-                    <button className="text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px]">
+
+                    <button 
+                    onClick={()=> setSelectTab('frontend')}
+                    className="text-smallTextColor border border-solid border-smallTextColor font-semibold py-2 px-4 rounded-[10px] hover:bg-indigo-100">
                         Frontend
                     </button>
-                    <button className="text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px]">
+
+                    <button 
+                    onClick={()=> setSelectTab('backend')}
+                    className="text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[10px] font-semibold hover:bg-indigo-50">
                         Full Stack
                     </button>
+
                 </div>
             </div>
 
@@ -50,7 +91,9 @@ const Projects = () => {
 
                             <div className="w-full h-full bg-primarycolor bg-opacity-40 absolute top-0 left-0 z-[5] hidden group-hover:block">
                                 <div className="w-full h-full flex items-center justify-center">
-                                    <button className="text-white bg-headingColor hover:bg-smallTextColor py-2 px-4 rounded-[10px] font-[500] ease-in duration-200">See Project</button>
+                                    <button 
+                                    onClick={() =>showModelHandler(portfolios.id)}
+                                    className="text-white bg-headingColor hover:bg-smallTextColor py-2 px-4 rounded-[10px] font-[500] ease-in duration-200">See Project</button>
                                 </div>
                             </div>
                         </div>
@@ -74,6 +117,8 @@ const Projects = () => {
 
 
         </div>
+
+        {showModel && <Model setShowModel = {setShowModel} activeId={activeId}/>}
       
     </section>
   )

@@ -6,7 +6,7 @@ const portfolios = [
   {
     id: "01",
     imgUrl:img1,
-    category: "Web Design",
+    category: "Frontend",
     title: "Finance Technology Website",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -16,7 +16,7 @@ const portfolios = [
   {
     id: "02",
     imgUrl:img2,
-    category: "Ux",
+    category: "Backend",
     title: "Video Conference Website",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -26,7 +26,7 @@ const portfolios = [
   {
     id: "03",
     imgUrl:img1,
-    category: "Ux",
+    category: "Backend",
     title: "Multimedia Sharing Website",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
