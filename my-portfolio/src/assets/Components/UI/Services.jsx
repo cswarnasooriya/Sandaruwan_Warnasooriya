@@ -21,6 +21,8 @@ const Services = () => {
                 I am Undergraduate student of Sabaragamuwa University of Sri Lanka. Bsc(Hons) in Computing and Information Systems. In 2022 I graduated from IMBS Green Campus as the diplomer of Human Resourece Management (Dip. in HRM - 2022). So, Now I am begginer Full Stack Developer and currently I am following AI and Software Enginnering path as well with forwarding trends of IT sector. <br /><br />
                 I am Interested in learning new trend of technologies and cybersecurity as well. Currently I am following Backend Technologies like MongoDB and Node Js as well. Now I work with some individual and group project as  well as posible with good team working expereinces. I am Knowlege seeker of any related field of industry and social wise. I have good team work and time management qualities when used as the team. Still I am improvinf my skill level of Software Field and my Work experiences.
                 <br /><br />
+                Knowledge Seeker | Happy Coder | Blogger | Motivated student
+                <br /><br />
                 <p
                 data-aos="fade-right"
                 data-aos-duration ="2200" >
