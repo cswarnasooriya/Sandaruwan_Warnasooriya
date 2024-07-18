@@ -77,7 +77,7 @@ const Services = () => {
                                     data-aos="fade-left"
                                     data-aos-duration="1200"
                                     className="bg-white p-4 rounded shadow-md group hover:bg-primarycolor cursor-pointer ease-in duration-150">
-                                        <h3 className="text-primarycolor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-2xl">Frontend Development</h3>
+                                        <h3 className="text-primarycolor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-2xl">Backend Development</h3>
 
                                         <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7">
                                             Currently I am using Node Js | MongoDB | Express JS as technologies for Backend Projects to skill popup. <br /><br />Indiviual | Group 4+

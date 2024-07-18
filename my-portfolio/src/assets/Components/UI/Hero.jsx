@@ -35,7 +35,7 @@ const Hero = () => {
                         <i class="ri-mail-send-line"></i>Contact Me
                     </button></a>
 
-                    <a href="#portfolio" className="text-smallTextColor font-[700] text-[17px] border-b border-smallTextColor border-solid">Download CV</a>
+                    <a href="https://drive.google.com/file/d/1L6FtVL3BcKFdsK1sRWaOVNevDGl8o-s7/view" className="text-smallTextColor font-[700] text-[17px] border-b border-smallTextColor border-solid">Download CV</a>
                 
                 </div>
 
