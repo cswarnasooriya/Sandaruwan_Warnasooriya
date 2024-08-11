@@ -1,9 +1,9 @@
 import img1 from "../data/p1.png";
-import img2 from "../data/a2.png";
-import img3 from "../data/a1.png";
+import img2 from "../data/q1.png";
+import img3 from "../data/q2.png";
 import img4 from "../data/a3.png";
 import img5 from "../data/a4.png";
-import img6 from "../data/a4.png";
+import img6 from "../data/q3.png";
 import img7 from "../data/a5.png";
 import img8 from "../data/a6.png";
 import img9 from "../data/a7.png";
@@ -14,122 +14,83 @@ const portfolios = [
     id: "01",
     imgUrl:img1,
     category: "Frontend",
-    title: "Finance Technology Website",
+    title: "Architecture design and modeling Website",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+      "This is my own idea based project for my knowledge skill up purpose also. In here I am popup my frontend development skill level with React Js and Tailwind CSS also.",
+    technologies: ["React Js", "Tailwind css", "HTML", "CSS"],
     siteUrl: "#",
   },
   {
     id: "02",
     imgUrl:img2,
     category: "Backend",
-    title: "Video Conference Website",
+    title: "Idea based Online E Learning Support System",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+      "This is my own idea based project for support e learning and refer online courses with full stack developing project used to login with CRUD operations also...",
+    technologies: ["React Js", "Tailwind css", "Node.js","Express Js", "MongoDB"],
     siteUrl: "#",
   },
   {
     id: "03",
     imgUrl:img3,
     category: "Backend",
-    title: "Multimedia Sharing Website",
+    title: "Online Books Showcase Free and Paid",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
-  },
-  {
-    id: "01",
-    imgUrl:img4,
-    category: "Web Design",
-    title: "Finance Technology Website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
-  },
-  {
-    id: "02",
-    imgUrl:img5,
-    category: "Ux",
-    title: "Video Conference Website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
-  },
-  {
-    id: "03",
-    imgUrl:img6,
-    category: "Ux",
-    title: "Multimedia Sharing Website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+      "This is my own idea based new project done in July 2024. Try to showcase all the free and paid books and I hope to modify this project as new features added and give chances to link real world books also.",
+    technologies: ["React", "Tailwind css","Express Js", "Node.js", "MongoDB"],
     siteUrl: "#",
   },
   {
     id: "04",
-    imgUrl:img8,
-    category: "Web Design",
-    title: "Finance Technology Website",
+    imgUrl:img4,
+    category: "Frontend",
+    title: "Frontend UI project to Shoe Shoecase",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+      "This project mainly design for my frontend knowledge skill popup and using new styling for my web development as tailwind css.",
+    technologies: ["React", "Tailwind css","HTML" ,"CSS"],
     siteUrl: "#",
   },
   {
     id: "05",
-    imgUrl:img7,
-    category: "Ux",
-    title: "Video Conference Website",
+    imgUrl:img5,
+    category: "Frontend",
+    title: "New Fashion Showcase UI Design",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+      "I also design that using my own idea with Next Js and tailwind CSS to showcase my skill level in frontend developing side. So, in here I mainly Used Next Js for Frontend development design UIs..",
+    technologies: ["React", "Tailwind css", "Next Js", "CSS"],
     siteUrl: "#",
   },
   {
     id: "06",
-    imgUrl:img1,
-    category: "Ux",
-    title: "Multimedia Sharing Website",
+    imgUrl:img6,
+    category: "Frontend",
+    title: "Showcase crypto currency Website",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+      "This is my own idea based frontend web application UI design to showcase crypto currency trades. It has mainly good and interactive animaation designs and effects also. In here I am used Next js mainly for developing UI design. I hope to create and add some another features also ASAP...",
+    technologies: ["React Js", "Tailwind css", "Next js", "Data-aos-Animations"],
     siteUrl: "#",
   },
   {
     id: "07",
-    imgUrl:img1,
-    category: "Web Design",
-    title: "Finance Technology Website",
+    imgUrl:img8,
+    category: "Frontend",
+    title: "Data sharing platform website",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+      "This is mainly develop for showcasing my frontend design skills using react js and Tailwind css as data sharing platform interface design in my mind..",
+    technologies: ["React JS", "Tailwind css", "HTML", "CSS"],
     siteUrl: "#",
   },
   {
     id: "08",
-    imgUrl:img2,
-    category: "Ux",
-    title: "Video Conference Website",
+    imgUrl:img7,
+    category: "Frontend",
+    title: "Travel and Tour Website - Frontend",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+      "This is mainly showcase my frontend development using reactjs and SCSS as developing knowledge also. Here I showcase some tour and travel website userinterface with full interactiive design manner also..",
+    technologies: ["React", "SCSS", "HTML", " Pure CSS"],
     siteUrl: "#",
   },
-  {
-    id: "09",
-    imgUrl:img9,
-    category: "Ux",
-    title: "Multimedia Sharing Website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
-  }
+  
 
 ];
 

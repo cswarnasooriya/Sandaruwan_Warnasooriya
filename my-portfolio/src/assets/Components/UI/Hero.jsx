@@ -61,19 +61,19 @@ const Hero = () => {
                     </span>
 
                     <span>
-                        <a href="#github" className="text-smallTextColor font-[600] text-[18px]">
+                        <a href="https://github.com/cswarnasooriya" className="text-smallTextColor font-[600] text-[18px]">
                             <i class="ri-github-line text-xl"></i>
                         </a>
                     </span>
 
                     <span>
-                        <a href="#linkedin" className="text-smallTextColor font-[600] text-[18px]">
+                        <a href="https://www.linkedin.com/in/sandaruwan-warnasooriya/" className="text-smallTextColor font-[600] text-[18px]">
                             <i class="ri-linkedin-fill text-xl"></i>
                         </a>
                     </span>
 
                     <span>
-                        <a href="#mysite" className="text-smallTextColor font-[600] text-[18px]">
+                        <a href="http://sandaruwanwarnasooriya.me/Sandaruwan_Warnasooriya/" className="text-smallTextColor font-[600] text-[18px]">
                             <i class="ri-link text-xl"></i>
                         </a>
                     </span>
@@ -122,22 +122,22 @@ const Hero = () => {
                         <CountUp start={0} end={100} duration={4} suffix="%"/>
                     </h2>
                     <h4 className="text-smallTextColor text-[18px]">
-                        Self Motivated And Learning
+                    Good Leadership Skills
                     </h4>
                 </div>
 
                 <div className="mb-10">
                     <h2 className="text-headingColor font-[700] text-[32px]">
-                        <CountUp start={0} end={100} duration={4} suffix="%"/>
+                        <CountUp start={0} end={3} duration={4} suffix="+"/>
                     </h2>
                     <h4 className="text-smallTextColor text-[18px]">
-                        Good Team Collaboration
+                        Team Collaboration Projects
                     </h4>
                 </div>
 
                 <div className="mb-10">
                     <h2 className="text-headingColor font-[700] text-[32px]">
-                        <CountUp start={0} end={5} duration={4} suffix="+"/>
+                        <CountUp start={0} end={6} duration={4} suffix="+"/>
                     </h2>
                     <h4 className="text-smallTextColor text-[18px]">
                         Own Individual Projects

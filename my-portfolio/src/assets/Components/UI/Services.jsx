@@ -21,7 +21,7 @@ const Services = () => {
                 I am Undergraduate student of Sabaragamuwa University of Sri Lanka. Bsc(Hons) in Computing and Information Systems. In 2022 I graduated from IMBS Green Campus as the diplomer of Human Resourece Management (Dip. in HRM - 2022). So, Now I am begginer Full Stack Developer and currently I am following AI and Software Enginnering path as well with forwarding trends of IT sector. <br /><br />
                 I am Interested in learning new trend of technologies and cybersecurity as well. Currently I am following Backend Technologies like MongoDB and Node Js as well. Now I work with some individual and group project as  well as posible with good team working expereinces. I am Knowlege seeker of any related field of industry and social wise. I have good team work and time management qualities when used as the team. Still I am improvinf my skill level of Software Field and my Work experiences.
                 <br /><br />
-                Knowledge Seeker | Happy Coder | Blogger | Motivated student
+                <span className="font-bold text-green-800">Beginner Software Engineer | Knowledge Seeker | Fast Learner | Happy Coder | Blogger | Motivated student | Traveller</span>
                 <br /><br />
                 <p
                 data-aos="fade-right"
@@ -54,7 +54,7 @@ const Services = () => {
                                         <h3 className="text-primarycolor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-2xl">Frontend Development</h3>
 
                                         <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7">
-                                            Currently I am using React JS | Next Js | Tailwind CSS | HTML | CSS for my Frontend Projects as well. <br /><br />Indiviual | Group 12+
+                                            Currently I am using React JS | Next Js | Tailwind CSS | HTML | CSS for my Frontend Projects as well. <br /><br />Indiviual | Group 10+
                                         </p>
                                     </div>
                                 </div>
